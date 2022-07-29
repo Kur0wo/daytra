@@ -1,0 +1,67 @@
+h2 {   
+    color: red;   
+    font-size: 30px; 
+}
+
+h3 {
+    color:#ffffff;  
+    font-size: 20px;
+} 
+
+span{
+    color:yellow;
+}
+
+.important { 
+    font-weight: bold;
+}
+
+.contents p {
+    font-size: 18px;
+}
+
+/* 誤：「.contents p」指定では全てのpタグの色が変わってしまう
+.contents p {
+    color: red;
+  } */
+
+/* 正：「>」で繋げることで直属の子孫要素のみを指定できます */
+.contents > p {
+    color: red;
+}
+
+body{
+    background-image:url(./background.jpg);
+    background-size:contain;
+    background-attachment:scroll;
+}
+
+.box{
+    height:300px;
+    width:1000px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.block{
+    height:100px;
+    width:200px;
+    margin:30px;
+}
+
+.box2{
+    position:relative;
+    left:100px;
+    top:50px;
+}
+
+.blockA{
+    position:absolute;
+    top:5px;
+    left:10px;
+}
+
+.box3{
+    position:absolute;
+    left:0;
+}
