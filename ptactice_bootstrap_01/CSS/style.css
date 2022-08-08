@@ -1,8 +1,12 @@
 .top{
-    background-image:url(../img/top.png);
+    background-image :url(../img/top.png);
     background-size: cover;
 }
 
+@font-face{
+    src:url(../fonts/ROLAchan/ROLAchan-Regular.otf);
+}
+
 .body{
-    font-family:'ROLAchan','源ノ角ゴシック';
+    font-family:'ROLAchan','源ノ角ゴシック',sans-serif;
 }
