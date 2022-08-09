@@ -1,0 +1,47 @@
+.body{
+    color:#082B48;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height:1.5;
+}
+
+.container{
+    width:90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+.top{
+    background-image: url(../img/main-vsual-nontitle.png);
+    background-size: cover;
+    padding:80px;
+}
+
+.email{
+    border-radius:800px;
+    width:70%;
+    margin:0 auto;
+}
+
+@media only screen and (max-width:767px){
+    .clear{
+    content:none;
+    }
+
+    header h3{
+        text-align: center;
+    }
+
+    .nav{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .card-body{
+        margin:0 auto;
+    }
+
+    .btn{
+        width:50%;
+        margin:0 auto;
+    }
+}
